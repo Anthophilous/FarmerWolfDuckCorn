@@ -1,0 +1,56 @@
+Script started on Sat 01 Oct 2022 07:47:06 PM PDT
+]0;white150@empress:~/CS471Progs/HW2-FWDC[?1034h[white150@empress HW2-FWDC]$ g++ fwdc.cpp
+]0;white150@empress:~/CS471Progs/HW2-FWDC[white150@empress HW2-FWDC]$ ./a.out
+>>>Expand:RRRR
+Trying to add: LRRRTrying to add: LLRRTrying to add: LRLRTrying to add: LRRLFrontier is:
+LRRR g = 1 h = 3 f = 4
+LRLR g = 1 h = 2 f = 3
+y
+>>>Expand:LRRR
+Trying to add: RRRRFrontier is:
+LRLR g = 1 h = 2 f = 3
+y
+>>>Expand:LRLR
+Trying to add: RRLRTrying to add: RRRRFrontier is:
+RRLR g = 2 h = 2 f = 4
+y
+>>>Expand:RRLR
+Trying to add: LRLRTrying to add: LLLRTrying to add: LRLLFrontier is:
+LLLR g = 3 h = 1 f = 4
+LRLL g = 3 h = 1 f = 4
+y
+>>>Expand:LLLR
+Trying to add: RLLRTrying to add: RRLRTrying to add: RLRRFrontier is:
+LRLL g = 3 h = 1 f = 4
+RLRR g = 4 h = 2 f = 6
+y
+>>>Expand:RLRR
+Trying to add: LLRRTrying to add: LLLRTrying to add: LLRLFrontier is:
+LRLL g = 3 h = 1 f = 4
+LLRL g = 5 h = 1 f = 6
+y
+>>>Expand:LLRL
+Trying to add: RLRLTrying to add: RRRLTrying to add: RLRRFrontier is:
+LRLL g = 3 h = 1 f = 4
+RLRL g = 6 h = 1 f = 7
+RRRL g = 6 h = 2 f = 8
+y
+>>>Expand:RRRL
+Trying to add: LRRLTrying to add: LLRLTrying to add: LRLLFrontier is:
+LRLL g = 3 h = 1 f = 4
+RLRL g = 6 h = 1 f = 7
+y
+>>>Expand:RLRL
+Trying to add: LLRLTrying to add: LLLL>>Reached: LLLL
+LLLL
+RLRL
+LLRL
+RLRR
+LLLR
+RRLR
+LRLR
+RRRR
+]0;white150@empress:~/CS471Progs/HW2-FWDC[white150@empress HW2-FWDC]$ exit
+exit
+
+Script done on Sat 01 Oct 2022 07:48:28 PM PDT
